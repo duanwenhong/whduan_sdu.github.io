@@ -46,6 +46,23 @@ body {
 	margin-left: 0.5em;
 }
 
+.profile {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+.profile img {
+	max-width: 100%;
+	height: auto;
+}
+
+.profile > div {
+	flex: 1 1 20em;
+	min-width: 0;
+}
+
 tt {
     background: #ffffdd;
 }
